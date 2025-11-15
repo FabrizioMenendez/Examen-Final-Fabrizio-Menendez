@@ -1,28 +1,47 @@
-
 body {
-    font-family: 'Stardos Stencil', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f4fc9d;
-    color: #000000;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: #f4fc9d; /* color pastel suave */
     text-align: center;
+    padding: 20px;
 }
 
-h1{
-    text-align: center;
+/* Título principal */
+h1 {
     color: rgb(0, 0, 0);
-    padding: 15px;
+    padding: 10px;
 }
 
+/* Inputs */
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #555;
+    width: 220px;
+    text-align: center;
+}
+
+/* Botón */
 button {
-    margin: 5px;
-    padding: 10px 15px;
-    background: #556b2f;
-    color: #b8ff91;
-    border: 2px solid #333;
-    border-radius: 5px;
+    margin: 10px;
+    padding: 12px 20px;
+    background: #7fa650;
+    color: white;
+    border: none;
+    border-radius: 8px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
+}
+
+button:hover {
+    background: #6a8c43;
+}
+
+/* Resultado */
+#resultado {
+    color: #000;
+    font-size: 24px;
+    margin-top: 15px;
 }
